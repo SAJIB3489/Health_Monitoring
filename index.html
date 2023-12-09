@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="green-background">
+
+<div class="app-container">
+    <button class="rounded-button" onclick="checkHealth()">Check My Health</button>
+    <button class="rounded-button" onclick="browseWebsite()">Re-Check</button>
+    <div id="loading">Please wait a moment...</div>
+    <div id="healthData"></div>
+    <iframe id="websiteFrame" style="display: none;"></iframe>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

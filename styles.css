@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.green-background {
+    background-color: #4CAF50;
+    color: white;
+    height: 100%;
+    overflow: hidden; /* Hide the scrollbar */
+}
+
+.app-container {
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rounded-button {
+    background-color: white;
+    color: #4CAF50;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #4CAF50;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#loading {
+    display: none;
+}
+
+#iframe-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the iframe container takes full height */
+}
+
+#websiteFrame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
